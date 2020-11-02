@@ -58,7 +58,7 @@ int main(){
       pickItem(&rooms, &items, &inventory, currentRoom, input);
     }
     if (strcmp(input, "drop") == 0){
-      cout << endl << "What would you like to drop?";
+      cout << endl << "What would you like to drop?" << endl << endl;
       cin.get(input, 15);
       cin.clear();
       cin.ignore(256, '\n');
