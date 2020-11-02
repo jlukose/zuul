@@ -37,7 +37,7 @@ int main(){
     cin.clear();
     cin.ignore(256, '\n');
     if (strcmp(input, "help") == 0){
-      cout << endl << "Your objective is to find the exit. Type quit to end the game, move to move to another room, get to get an item, drop to drop an item, and inventory to see your items." << endl;
+      cout << endl << "Your objective is to find the exit. Type quit to end the game, move to move to another room, get to get an item, drop to drop an item, and inventory to see your items." << endl << endl;
     }
     if (strcmp(input, "quit") == 0){
       cout << "Quitting..." << endl;
